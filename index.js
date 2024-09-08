@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 8000;
 
 // Middleware setup
 const corsOptions = {
-    origin: 'https://main--stupendous-pithivier-d400ed.netlify.app/', 
+    origin: 'https://main--stupendous-pithivier-d400ed.netlify.app', 
     methods: ['GET', 'POST','PUT','DELETE','PATCH'], 
     allowedHeaders: ['Content-Type', 'authorization'], 
     credentials: true, 
